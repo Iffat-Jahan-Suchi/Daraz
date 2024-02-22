@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-22T20:03:54 BDT" name="Default suite" finished-at="2024-02-22T20:04:18 BDT" duration-ms="24254">
+    <groups>
+    </groups>
+    <test started-at="2024-02-22T20:03:54 BDT" name="Default test" finished-at="2024-02-22T20:04:18 BDT" duration-ms="24254">
+      <class name="testcases.DarazLoginPageTest">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.DarazLoginPageTest@c730b35]" started-at="2024-02-22T20:03:51 BDT" name="setBrowser" finished-at="2024-02-22T20:03:54 BDT" duration-ms="2902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="testLoginInvalidData()[pri:0, instance:testcases.DarazLoginPageTest@c730b35]" started-at="2024-02-22T20:03:54 BDT" name="testLoginInvalidData" finished-at="2024-02-22T20:04:18 BDT" duration-ms="24197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginInvalidData -->
+        <test-method is-config="true" signature="qhuitBrowser()[pri:0, instance:testcases.DarazLoginPageTest@c730b35]" started-at="2024-02-22T20:04:18 BDT" name="qhuitBrowser" finished-at="2024-02-22T20:04:18 BDT" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qhuitBrowser -->
+      </class> <!-- testcases.DarazLoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
