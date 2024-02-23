@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.DarazLoginPageTest">
+      <class name="testcases.DarazSignUpPageTest">
         <methods>
-          <include name="testLoginInvalidData"/>
           <include name="qhuitBrowser"/>
           <include name="setBrowser"/>
+          <include name="validDataSignUp"/>
         </methods>
-      </class> <!-- testcases.DarazLoginPageTest -->
+      </class> <!-- testcases.DarazSignUpPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

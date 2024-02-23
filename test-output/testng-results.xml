@@ -1,25 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-22T20:03:54 BDT" name="Default suite" finished-at="2024-02-22T20:04:18 BDT" duration-ms="24254">
+  <suite started-at="2024-02-24T00:12:23 BDT" name="Suite" finished-at="2024-02-24T00:14:02 BDT" duration-ms="99868">
     <groups>
     </groups>
-    <test started-at="2024-02-22T20:03:54 BDT" name="Default test" finished-at="2024-02-22T20:04:18 BDT" duration-ms="24254">
+    <test started-at="2024-02-24T00:12:23 BDT" name="Test" finished-at="2024-02-24T00:14:02 BDT" duration-ms="99868">
       <class name="testcases.DarazLoginPageTest">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.DarazLoginPageTest@c730b35]" started-at="2024-02-22T20:03:51 BDT" name="setBrowser" finished-at="2024-02-22T20:03:54 BDT" duration-ms="2902" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.DarazLoginPageTest@3c46e67a]" started-at="2024-02-24T00:12:23 BDT" name="setBrowser" finished-at="2024-02-24T00:12:25 BDT" duration-ms="2451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="testLoginInvalidData()[pri:0, instance:testcases.DarazLoginPageTest@c730b35]" started-at="2024-02-22T20:03:54 BDT" name="testLoginInvalidData" finished-at="2024-02-22T20:04:18 BDT" duration-ms="24197" status="PASS">
+        <test-method signature="testLoginInvalidData()[pri:0, instance:testcases.DarazLoginPageTest@3c46e67a]" started-at="2024-02-24T00:13:22 BDT" name="testLoginInvalidData" finished-at="2024-02-24T00:13:36 BDT" duration-ms="14220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginInvalidData -->
-        <test-method is-config="true" signature="qhuitBrowser()[pri:0, instance:testcases.DarazLoginPageTest@c730b35]" started-at="2024-02-22T20:04:18 BDT" name="qhuitBrowser" finished-at="2024-02-22T20:04:18 BDT" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="qhuitBrowser()[pri:0, instance:testcases.DarazLoginPageTest@3c46e67a]" started-at="2024-02-24T00:14:02 BDT" name="qhuitBrowser" finished-at="2024-02-24T00:14:02 BDT" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- qhuitBrowser -->
       </class> <!-- testcases.DarazLoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testcases.DarazSignUpPageTest">
+        <test-method signature="clickSignUpBlandData()[pri:1, instance:testcases.DarazSignUpPageTest@40a4337a]" started-at="2024-02-24T00:13:36 BDT" name="clickSignUpBlandData" finished-at="2024-02-24T00:13:42 BDT" duration-ms="5785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignUpBlandData -->
+        <test-method signature="validDataSignUp()[pri:2, instance:testcases.DarazSignUpPageTest@40a4337a]" started-at="2024-02-24T00:13:42 BDT" name="validDataSignUp" finished-at="2024-02-24T00:14:02 BDT" duration-ms="20166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataSignUp -->
+      </class> <!-- testcases.DarazSignUpPageTest -->
+      <class name="testcases.DarazHomePageTest">
+        <test-method signature="darazHome()[pri:0, instance:testcases.DarazHomePageTest@54d9d12d]" started-at="2024-02-24T00:12:25 BDT" name="darazHome" finished-at="2024-02-24T00:13:21 BDT" duration-ms="55716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- darazHome -->
+      </class> <!-- testcases.DarazHomePageTest -->
+      <class name="testcases.DarazHelpCentrePageTest">
+        <test-method signature="testHelpCenter()[pri:0, instance:testcases.DarazHelpCentrePageTest@22ff4249]" started-at="2024-02-24T00:13:21 BDT" name="testHelpCenter" finished-at="2024-02-24T00:13:22 BDT" duration-ms="1122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHelpCenter -->
+      </class> <!-- testcases.DarazHelpCentrePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
