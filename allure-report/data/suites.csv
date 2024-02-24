@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Feb 24 14:07:24 BDT 2024","Sat Feb 24 14:08:31 BDT 2024","67809","Suite","Test","testcases.DarazHomePageTest","testcases.DarazHomePageTest","darazHome","darazHome",""
+"passed","Sat Feb 24 14:07:21 BDT 2024","Sat Feb 24 14:07:24 BDT 2024","3294","Suite","Test","testcases.DarazHelpCentrePageTest","testcases.DarazHelpCentrePageTest","testHelpCenter","testHelpCenter",""
+"passed","Sat Feb 24 14:07:26 BDT 2024","Sat Feb 24 14:07:37 BDT 2024","11193","Suite","Test","testcases.DarazSignUpPageTest","testcases.DarazSignUpPageTest","clickSignUpBlandData","clickSignUpBlandData",""
+"passed","Sat Feb 24 14:07:41 BDT 2024","Sat Feb 24 14:08:05 BDT 2024","24349","Suite","Test","testcases.DarazSignUpPageTest","testcases.DarazSignUpPageTest","validDataSignUp","validDataSignUp",""
+"passed","Sat Feb 24 14:07:19 BDT 2024","Sat Feb 24 14:07:48 BDT 2024","29113","Suite","Test","testcases.DarazLoginPageTest","testcases.DarazLoginPageTest","testLoginInvalidData","testLoginInvalidData",""

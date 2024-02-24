@@ -1,0 +1,102 @@
+{
+  "uid" : "d0549524eaf3052b",
+  "name" : "validDataSignUp",
+  "fullName" : "testcases.DarazSignUpPageTest.validDataSignUp",
+  "historyId" : "31c8e0da3506311fa76fb110b5bfc14c",
+  "time" : {
+    "start" : 1708762061448,
+    "stop" : 1708762085797,
+    "duration" : 24349
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1708762058436,
+      "stop" : 1708762061437,
+      "duration" : 3001
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "qhuitBrowser",
+    "time" : {
+      "start" : 1708762085815,
+      "stop" : 1708762086040,
+      "duration" : 225
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.DarazSignUpPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.DarazSignUpPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "validDataSignUp"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.DarazSignUpPageTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KNGCGF8"
+  }, {
+    "name" : "thread",
+    "value" : "12740@DESKTOP-KNGCGF8.TestNG-test=Test-3(20)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "92202146eeedd165",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708761746909,
+        "stop" : 1708761774540,
+        "duration" : 27631
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0549524eaf3052b.json",
+  "parameterValues" : [ ]
+}

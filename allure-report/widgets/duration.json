@@ -1,0 +1,51 @@
+[ {
+  "uid" : "b25315faf046e882",
+  "name" : "darazHome",
+  "time" : {
+    "start" : 1708762044147,
+    "stop" : 1708762111956,
+    "duration" : 67809
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21a4e6014e674c14",
+  "name" : "testHelpCenter",
+  "time" : {
+    "start" : 1708762041259,
+    "stop" : 1708762044553,
+    "duration" : 3294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c09acf7a0021f83b",
+  "name" : "clickSignUpBlandData",
+  "time" : {
+    "start" : 1708762046672,
+    "stop" : 1708762057865,
+    "duration" : 11193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0549524eaf3052b",
+  "name" : "validDataSignUp",
+  "time" : {
+    "start" : 1708762061448,
+    "stop" : 1708762085797,
+    "duration" : 24349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfbe24c2c82a19e8",
+  "name" : "testLoginInvalidData",
+  "time" : {
+    "start" : 1708762039462,
+    "stop" : 1708762068575,
+    "duration" : 29113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Dell\eclipse-workspace\POM\testng.xml</span>
+                    <span>C:\Users\Dell\eclipse-workspace\POM\testngMethod.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -141,21 +141,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.DarazHomePageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="darazHome">
-                  </a> <!-- darazHome -->
-                  <span class="method-name">darazHome</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">testcases.DarazHelpCentrePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -164,6 +149,21 @@
                   <a name="testHelpCenter">
                   </a> <!-- testHelpCenter -->
                   <span class="method-name">testHelpCenter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.DarazHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="darazHome">
+                  </a> <!-- darazHome -->
+                  <span class="method-name">darazHome</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -208,17 +208,17 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Dell\eclipse-workspace\POM\testng.xml</span>
+            <span class="header-content">C:\Users\Dell\eclipse-workspace\POM\testngMethod.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Test&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcases.DarazLoginPageTest&quot;/&gt;
       &lt;class name=&quot;testcases.DarazHomePageTest&quot;/&gt;
+      &lt;class name=&quot;testcases.DarazLoginPageTest&quot;/&gt;
       &lt;class name=&quot;testcases.DarazSignUpPageTest&quot;/&gt;
       &lt;class name=&quot;testcases.DarazHelpCentrePageTest&quot;/&gt;
     &lt;/classes&gt;
@@ -264,28 +264,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'darazHome')
 data.setCell(0, 2, 'testcases.DarazHomePageTest')
-data.setCell(0, 3, 55716);
+data.setCell(0, 3, 67817);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validDataSignUp')
-data.setCell(1, 2, 'testcases.DarazSignUpPageTest')
-data.setCell(1, 3, 20166);
+data.setCell(1, 1, 'testLoginInvalidData')
+data.setCell(1, 2, 'testcases.DarazLoginPageTest')
+data.setCell(1, 3, 29189);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testLoginInvalidData')
-data.setCell(2, 2, 'testcases.DarazLoginPageTest')
-data.setCell(2, 3, 14220);
+data.setCell(2, 1, 'validDataSignUp')
+data.setCell(2, 2, 'testcases.DarazSignUpPageTest')
+data.setCell(2, 3, 24355);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'clickSignUpBlandData')
 data.setCell(3, 2, 'testcases.DarazSignUpPageTest')
-data.setCell(3, 3, 5785);
+data.setCell(3, 3, 11198);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testHelpCenter')
 data.setCell(4, 2, 'testcases.DarazHelpCentrePageTest')
-data.setCell(4, 3, 1122);
+data.setCell(4, 3, 3295);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -300,36 +300,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">6 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.DarazHomePageTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">setBrowser</span>
-                <br/>
-                <span class="ignored-method-name">qhuitBrowser</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.DarazHelpCentrePageTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">setBrowser</span>
-                <br/>
-                <span class="ignored-method-name">qhuitBrowser</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.DarazSignUpPageTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">qhuitBrowser</span>
-                <br/>
-                <span class="ignored-method-name">setBrowser</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -339,49 +312,96 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.DarazLoginPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
+              <div class="configuration-method before">
                 <span class="method-name">setBrowser</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.DarazHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setBrowser</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DarazHelpCentrePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setBrowser</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DarazLoginPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">darazHome</span>
-                <span class="method-start">2480 ms</span>
+                <span class="method-name">testLoginInvalidData</span>
+                <span class="method-start">4286 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.DarazHelpCentrePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testHelpCenter</span>
-                <span class="method-start">58210 ms</span>
+                <span class="method-start">6153 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.DarazLoginPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.DarazHomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testLoginInvalidData</span>
-                <span class="method-start">59336 ms</span>
+                <span class="method-name">darazHome</span>
+                <span class="method-start">9038 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DarazHelpCentrePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">qhuitBrowser</span>
+                <span class="method-start">9470 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.DarazSignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setBrowser</span>
+                <span class="method-start">9833 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">clickSignUpBlandData</span>
-                <span class="method-start">73560 ms</span>
+                <span class="method-start">11567 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">qhuitBrowser</span>
+                <span class="method-start">22769 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setBrowser</span>
+                <span class="method-start">23335 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validDataSignUp</span>
-                <span class="method-start">79352 ms</span>
+                <span class="method-start">26342 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.DarazLoginPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
+              <div class="configuration-method after">
                 <span class="method-name">qhuitBrowser</span>
-                <span class="method-start">99519 ms</span>
-              </div> <!-- configuration-test after -->
+                <span class="method-start">33481 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DarazSignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">qhuitBrowser</span>
+                <span class="method-start">50714 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DarazHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">qhuitBrowser</span>
+                <span class="method-start">76863 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

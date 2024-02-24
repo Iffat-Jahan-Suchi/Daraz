@@ -1,0 +1,94 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Test",
+      "children" : [ {
+        "name" : "testcases.DarazLoginPageTest",
+        "children" : [ {
+          "name" : "testLoginInvalidData",
+          "uid" : "dfbe24c2c82a19e8",
+          "parentUid" : "48f8b545e2a733c2ca6bc26e175c7fa1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708762039462,
+            "stop" : 1708762068575,
+            "duration" : 29113
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "48f8b545e2a733c2ca6bc26e175c7fa1"
+      }, {
+        "name" : "testcases.DarazHelpCentrePageTest",
+        "children" : [ {
+          "name" : "testHelpCenter",
+          "uid" : "21a4e6014e674c14",
+          "parentUid" : "e81a05f55b41fa5d9e04d478f803b9bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708762041259,
+            "stop" : 1708762044553,
+            "duration" : 3294
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e81a05f55b41fa5d9e04d478f803b9bc"
+      }, {
+        "name" : "testcases.DarazHomePageTest",
+        "children" : [ {
+          "name" : "darazHome",
+          "uid" : "b25315faf046e882",
+          "parentUid" : "b5c88795e38d06e80dc848fd29420883",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708762044147,
+            "stop" : 1708762111956,
+            "duration" : 67809
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b5c88795e38d06e80dc848fd29420883"
+      }, {
+        "name" : "testcases.DarazSignUpPageTest",
+        "children" : [ {
+          "name" : "clickSignUpBlandData",
+          "uid" : "c09acf7a0021f83b",
+          "parentUid" : "90ac2daf062f999fbea2c7b5bfb13e74",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708762046672,
+            "stop" : 1708762057865,
+            "duration" : 11193
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validDataSignUp",
+          "uid" : "d0549524eaf3052b",
+          "parentUid" : "90ac2daf062f999fbea2c7b5bfb13e74",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708762061448,
+            "stop" : 1708762085797,
+            "duration" : 24349
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "90ac2daf062f999fbea2c7b5bfb13e74"
+      } ],
+      "uid" : "7314231e84d67a341867b5c9d3f928d2"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ]
+}

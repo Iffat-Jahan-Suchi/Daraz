@@ -1,0 +1,86 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-KNGCGF8",
+    "children" : [ {
+      "name" : "12740@DESKTOP-KNGCGF8.TestNG-test=Test-1(18)",
+      "children" : [ {
+        "name" : "darazHome",
+        "uid" : "b25315faf046e882",
+        "parentUid" : "d62fd6839bb38d8c3a782fe6355fca41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708762044147,
+          "stop" : 1708762111956,
+          "duration" : 67809
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d62fd6839bb38d8c3a782fe6355fca41"
+    }, {
+      "name" : "12740@DESKTOP-KNGCGF8.TestNG-test=Test-3(20)",
+      "children" : [ {
+        "name" : "testHelpCenter",
+        "uid" : "21a4e6014e674c14",
+        "parentUid" : "e4da48df273ad3504069baa9196fb130",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708762041259,
+          "stop" : 1708762044553,
+          "duration" : 3294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickSignUpBlandData",
+        "uid" : "c09acf7a0021f83b",
+        "parentUid" : "e4da48df273ad3504069baa9196fb130",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708762046672,
+          "stop" : 1708762057865,
+          "duration" : 11193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "validDataSignUp",
+        "uid" : "d0549524eaf3052b",
+        "parentUid" : "e4da48df273ad3504069baa9196fb130",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708762061448,
+          "stop" : 1708762085797,
+          "duration" : 24349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e4da48df273ad3504069baa9196fb130"
+    }, {
+      "name" : "12740@DESKTOP-KNGCGF8.TestNG-test=Test-2(19)",
+      "children" : [ {
+        "name" : "testLoginInvalidData",
+        "uid" : "dfbe24c2c82a19e8",
+        "parentUid" : "16e75704245538b109e01b169b4d3616",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708762039462,
+          "stop" : 1708762068575,
+          "duration" : 29113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "16e75704245538b109e01b169b4d3616"
+    } ],
+    "uid" : "5ab71f90117b8e42ee09e64e2f2dd034"
+  } ]
+}

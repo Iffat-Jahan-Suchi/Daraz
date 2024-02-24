@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="3" parallel="methods" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testcases.DarazSignUpPageTest">
+        <methods>
+          <include name="qhuitBrowser"/>
+          <include name="setBrowser"/>
+          <include name="validDataSignUp"/>
+        </methods>
+      </class> <!-- testcases.DarazSignUpPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
