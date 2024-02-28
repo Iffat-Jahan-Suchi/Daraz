@@ -15,6 +15,7 @@ public class DarazLoginPage extends BasePage{
 		writeText(emailOrPhoneNumber,email);
 		writeText(userPassword,password);
 		btnClick(loginBtn);
+		
 	}
 
 }

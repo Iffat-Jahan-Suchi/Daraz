@@ -1,0 +1,128 @@
+{
+  "uid" : "5a89e9fd43664c72",
+  "name" : "testLoginInvalidData",
+  "fullName" : "testcases.DarazLoginPageTest.testLoginInvalidData",
+  "historyId" : "370feaf533cdb932d80f37d54de45a9e",
+  "time" : {
+    "start" : 1709131201460,
+    "stop" : 1709131232266,
+    "duration" : 30806
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1709131200420,
+      "stop" : 1709131201453,
+      "duration" : 1033
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9a148740b98b6c6",
+      "name" : "login page",
+      "source" : "9a148740b98b6c6.png",
+      "type" : "image/png",
+      "size" : 77198
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "qhuitBrowser",
+    "time" : {
+      "start" : 1709131232274,
+      "stop" : 1709131232490,
+      "duration" : 216
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.DarazLoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.DarazLoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginInvalidData"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.DarazLoginPageTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KNGCGF8"
+  }, {
+    "name" : "thread",
+    "value" : "4356@DESKTOP-KNGCGF8.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "96587456222"
+  }, {
+    "name" : "arg1",
+    "value" : "......987456"
+  }, {
+    "name" : "arg2",
+    "value" : "Please enter a valid phone number."
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fca6e2e73df82fed",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='next-feedback-content']\"}\n  (Session info: chrome=122.0.6261.70)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.18.1', revision: 'b1d3319b48'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [39d0b81b951f644f5a5538b8cae89771, findElement {using=xpath, value=//div[@class='next-feedback-content']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\\Users\\Dell\\AppData\\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1077}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1077/devtool..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 39d0b81b951f644f5a5538b8cae89771",
+      "time" : {
+        "start" : 1709131032046,
+        "stop" : 1709131072531,
+        "duration" : 40485
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a89e9fd43664c72.json",
+  "parameterValues" : [ "96587456222", "......987456", "Please enter a valid phone number." ]
+}

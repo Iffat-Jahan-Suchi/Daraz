@@ -10,5 +10,7 @@ public class DarazHomePage extends BasePage{
 	public String DarazDashbOardUrl="https://www.daraz.com.bd/";
 	public By CallUs=By.xpath("(//a[@class='care-item-anchor'])[3]");
 	public By signUp=By.xpath("//a[contains(@class,'grey bld-txt')]");
+	public By aboutDaraz=By.xpath("//a[normalize-space()='About Daraz']");
+	
 
 }

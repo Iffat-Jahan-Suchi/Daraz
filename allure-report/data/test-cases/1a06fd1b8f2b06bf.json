@@ -1,0 +1,110 @@
+{
+  "uid" : "1a06fd1b8f2b06bf",
+  "name" : "clickSignUpBlandData",
+  "fullName" : "testcases.DarazSignUpPageTest.clickSignUpBlandData",
+  "historyId" : "82fd4c5442dd203d8d33b741c23f2c21",
+  "time" : {
+    "start" : 1708784814291,
+    "stop" : 1708784825268,
+    "duration" : 10977
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1708784812035,
+      "stop" : 1708784814070,
+      "duration" : 2035
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "qhuitBrowser",
+    "time" : {
+      "start" : 1708784825274,
+      "stop" : 1708784825610,
+      "duration" : 336
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.DarazSignUpPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.DarazSignUpPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickSignUpBlandData"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.DarazSignUpPageTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KNGCGF8"
+  }, {
+    "name" : "thread",
+    "value" : "3228@DESKTOP-KNGCGF8.TestNG-test=Test-3(20)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6e61dc94ed41b3fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708762046672,
+        "stop" : 1708762057865,
+        "duration" : 11193
+      }
+    }, {
+      "uid" : "980f4ff59212fe73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708761733181,
+        "stop" : 1708761745149,
+        "duration" : 11968
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a06fd1b8f2b06bf.json",
+  "parameterValues" : [ ]
+}

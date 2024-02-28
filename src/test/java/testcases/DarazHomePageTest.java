@@ -30,5 +30,17 @@ public class DarazHomePageTest extends DriverSetUp{
 		getDriver().findElement(darazHome.signUp).click();
 		
 	}
+	
+	@Test
+	public void ScrollVisaCard() throws InterruptedException {
+		getDriver().get(darazHome.DarazDashbOardUrl);
+		try {
+			Thread.sleep(3000);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		darazHome.scrolling(darazHome.aboutDaraz);
+		Thread.sleep(3000);
+	}
 
 }

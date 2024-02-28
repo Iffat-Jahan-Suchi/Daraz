@@ -1,0 +1,110 @@
+{
+  "uid" : "5eaf78e81f6836bf",
+  "name" : "testHelpCenter",
+  "fullName" : "testcases.DarazHelpCentrePageTest.testHelpCenter",
+  "historyId" : "ccd7549fa0d0c77f7a01d1125bc97d1c",
+  "time" : {
+    "start" : 1708784806782,
+    "stop" : 1708784811486,
+    "duration" : 4704
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1708784796204,
+      "stop" : 1708784806759,
+      "duration" : 10555
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "qhuitBrowser",
+    "time" : {
+      "start" : 1708784811554,
+      "stop" : 1708784812025,
+      "duration" : 471
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.DarazHelpCentrePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.DarazHelpCentrePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testHelpCenter"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.DarazHelpCentrePageTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KNGCGF8"
+  }, {
+    "name" : "thread",
+    "value" : "3228@DESKTOP-KNGCGF8.TestNG-test=Test-3(20)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "be2d2516000d08c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708762041259,
+        "stop" : 1708762044553,
+        "duration" : 3294
+      }
+    }, {
+      "uid" : "295bf0edc8f58d94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708761727590,
+        "stop" : 1708761730879,
+        "duration" : 3289
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5eaf78e81f6836bf.json",
+  "parameterValues" : [ ]
+}

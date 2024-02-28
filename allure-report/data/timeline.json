@@ -4,82 +4,138 @@
   "children" : [ {
     "name" : "DESKTOP-KNGCGF8",
     "children" : [ {
-      "name" : "12740@DESKTOP-KNGCGF8.TestNG-test=Test-1(18)",
+      "name" : "4356@DESKTOP-KNGCGF8.main(1)",
       "children" : [ {
-        "name" : "darazHome",
-        "uid" : "b25315faf046e882",
-        "parentUid" : "d62fd6839bb38d8c3a782fe6355fca41",
+        "name" : "testLoginInvalidData",
+        "uid" : "5a89e9fd43664c72",
+        "parentUid" : "ec4189309299adadf447c0f9d382e83f",
         "status" : "passed",
         "time" : {
-          "start" : 1708762044147,
-          "stop" : 1708762111956,
-          "duration" : 67809
+          "start" : 1709131201460,
+          "stop" : 1709131232266,
+          "duration" : 30806
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d62fd6839bb38d8c3a782fe6355fca41"
-    }, {
-      "name" : "12740@DESKTOP-KNGCGF8.TestNG-test=Test-3(20)",
-      "children" : [ {
-        "name" : "testHelpCenter",
-        "uid" : "21a4e6014e674c14",
-        "parentUid" : "e4da48df273ad3504069baa9196fb130",
+        "parameters" : [ "96587456222", "......987456", "Please enter a valid phone number." ]
+      }, {
+        "name" : "testLoginInvalidData",
+        "uid" : "3be9428ebbab3108",
+        "parentUid" : "ec4189309299adadf447c0f9d382e83f",
         "status" : "passed",
         "time" : {
-          "start" : 1708762041259,
-          "stop" : 1708762044553,
-          "duration" : 3294
+          "start" : 1709131233568,
+          "stop" : 1709131260815,
+          "duration" : 27247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "iffat@gmsil.com", "passpasspass", "Incorrect username or password." ]
+      }, {
+        "name" : "testLoginInvalidData",
+        "uid" : "32f302cfeb2f4da3",
+        "parentUid" : "ec4189309299adadf447c0f9d382e83f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709131144418,
+          "stop" : 1709131173153,
+          "duration" : 28735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456789", "password", "Please enter a valid phone number." ]
+      }, {
+        "name" : "testLoginInvalidData",
+        "uid" : "6c89d260091c01ae",
+        "parentUid" : "ec4189309299adadf447c0f9d382e83f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709131174766,
+          "stop" : 1709131200168,
+          "duration" : 25402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "abc@gmail.com", "9999999999", "Incorrect username or password." ]
+      } ],
+      "uid" : "ec4189309299adadf447c0f9d382e83f"
+    }, {
+      "name" : "3228@DESKTOP-KNGCGF8.TestNG-test=Test-3(20)",
+      "children" : [ {
+        "name" : "testHelpCenter",
+        "uid" : "5eaf78e81f6836bf",
+        "parentUid" : "7c8f54d5d8051ca1009ee1f587cf2c55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708784806782,
+          "stop" : 1708784811486,
+          "duration" : 4704
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "clickSignUpBlandData",
-        "uid" : "c09acf7a0021f83b",
-        "parentUid" : "e4da48df273ad3504069baa9196fb130",
+        "uid" : "1a06fd1b8f2b06bf",
+        "parentUid" : "7c8f54d5d8051ca1009ee1f587cf2c55",
         "status" : "passed",
         "time" : {
-          "start" : 1708762046672,
-          "stop" : 1708762057865,
-          "duration" : 11193
+          "start" : 1708784814291,
+          "stop" : 1708784825268,
+          "duration" : 10977
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "validDataSignUp",
-        "uid" : "d0549524eaf3052b",
-        "parentUid" : "e4da48df273ad3504069baa9196fb130",
+        "uid" : "3512c832f5ba0bd5",
+        "parentUid" : "7c8f54d5d8051ca1009ee1f587cf2c55",
         "status" : "passed",
         "time" : {
-          "start" : 1708762061448,
-          "stop" : 1708762085797,
-          "duration" : 24349
+          "start" : 1708784827203,
+          "stop" : 1708784852426,
+          "duration" : 25223
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e4da48df273ad3504069baa9196fb130"
+      "uid" : "7c8f54d5d8051ca1009ee1f587cf2c55"
     }, {
-      "name" : "12740@DESKTOP-KNGCGF8.TestNG-test=Test-2(19)",
+      "name" : "3228@DESKTOP-KNGCGF8.TestNG-test=Test-1(18)",
+      "children" : [ {
+        "name" : "darazHome",
+        "uid" : "35e23b37a20943d4",
+        "parentUid" : "cb91e3199dcfa090760fb0f51f7b7b67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708784801756,
+          "stop" : 1708784922433,
+          "duration" : 120677
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb91e3199dcfa090760fb0f51f7b7b67"
+    }, {
+      "name" : "3228@DESKTOP-KNGCGF8.TestNG-test=Test-2(19)",
       "children" : [ {
         "name" : "testLoginInvalidData",
-        "uid" : "dfbe24c2c82a19e8",
-        "parentUid" : "16e75704245538b109e01b169b4d3616",
+        "uid" : "9595361252108e79",
+        "parentUid" : "0d82d814172675bbab77452252e94869",
         "status" : "passed",
         "time" : {
-          "start" : 1708762039462,
-          "stop" : 1708762068575,
-          "duration" : 29113
+          "start" : 1708784803426,
+          "stop" : 1708784848525,
+          "duration" : 45099
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "16e75704245538b109e01b169b4d3616"
+      "uid" : "0d82d814172675bbab77452252e94869"
     } ],
     "uid" : "5ab71f90117b8e42ee09e64e2f2dd034"
   } ]
