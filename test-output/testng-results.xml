@@ -1,25 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-28T22:23:56 BDT" name="Default suite" finished-at="2024-02-28T22:25:06 BDT" duration-ms="69779">
+  <suite started-at="2024-02-29T20:33:20 BDT" name="Default suite" finished-at="2024-02-29T20:34:00 BDT" duration-ms="40056">
     <groups>
     </groups>
-    <test started-at="2024-02-28T22:23:56 BDT" name="Default test" finished-at="2024-02-28T22:25:06 BDT" duration-ms="69779">
-      <class name="testcases.DarazHomePageTest">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.DarazHomePageTest@57bc27f5]" started-at="2024-02-28T22:23:56 BDT" name="setBrowser" finished-at="2024-02-28T22:23:59 BDT" duration-ms="2245" status="PASS">
+    <test started-at="2024-02-29T20:33:20 BDT" name="Default test" finished-at="2024-02-29T20:34:00 BDT" duration-ms="40056">
+      <class name="testcases.DarazLoginPageTest">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.DarazLoginPageTest@5fb759d6]" started-at="2024-02-29T20:33:21 BDT" name="setBrowser" finished-at="2024-02-29T20:33:23 BDT" duration-ms="2219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="ScrollVisaCard()[pri:0, instance:testcases.DarazHomePageTest@57bc27f5]" started-at="2024-02-28T22:23:59 BDT" name="ScrollVisaCard" finished-at="2024-02-28T22:25:06 BDT" duration-ms="67105" status="PASS">
+        <test-method signature="testLoginInvalidCredential(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.DarazLoginPageTest@5fb759d6]" started-at="2024-02-29T20:33:23 BDT" name="testLoginInvalidCredential" data-provider="userData" finished-at="2024-02-29T20:33:40 BDT" duration-ms="16981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[987654321]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordmy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please enter a valid phone number.]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ScrollVisaCard -->
-        <test-method is-config="true" signature="qhuitBrowser()[pri:0, instance:testcases.DarazHomePageTest@57bc27f5]" started-at="2024-02-28T22:25:06 BDT" name="qhuitBrowser" finished-at="2024-02-28T22:25:06 BDT" duration-ms="230" status="PASS">
+        </test-method> <!-- testLoginInvalidCredential -->
+        <test-method is-config="true" signature="qhuitBrowser()[pri:0, instance:testcases.DarazLoginPageTest@5fb759d6]" started-at="2024-02-29T20:33:40 BDT" name="qhuitBrowser" finished-at="2024-02-29T20:33:41 BDT" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- qhuitBrowser -->
-      </class> <!-- testcases.DarazHomePageTest -->
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.DarazLoginPageTest@5fb759d6]" started-at="2024-02-29T20:33:41 BDT" name="setBrowser" finished-at="2024-02-29T20:33:42 BDT" duration-ms="1150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="testLoginInvalidCredential(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.DarazLoginPageTest@5fb759d6]" started-at="2024-02-29T20:33:42 BDT" name="testLoginInvalidCredential" data-provider="userData" finished-at="2024-02-29T20:34:00 BDT" duration-ms="18207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jahan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[58471254656987]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Incorrect username or password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginInvalidCredential -->
+        <test-method is-config="true" signature="qhuitBrowser()[pri:0, instance:testcases.DarazLoginPageTest@5fb759d6]" started-at="2024-02-29T20:34:00 BDT" name="qhuitBrowser" finished-at="2024-02-29T20:34:00 BDT" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qhuitBrowser -->
+      </class> <!-- testcases.DarazLoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

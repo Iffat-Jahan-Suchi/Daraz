@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1834640133\testng-customsuite.xml</span>
+                    <span>C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1465776054\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testcases.DarazHomePageTest" class="method navigator-link" hash-for-method="ScrollVisaCard">ScrollVisaCard</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testcases.DarazLoginPageTest" class="method navigator-link" hash-for-method="testLoginInvalidCredential(987654321, passwordmy, Please enter a valid phone number.)">testLoginInvalidCredential(987654321, passwordmy, Please enter a valid phone number.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testcases.DarazLoginPageTest" class="method navigator-link" hash-for-method="testLoginInvalidCredential(jahan@gmail.com, 58471254656987, Incorrect username or password.)">testLoginInvalidCredential(jahan@gmail.com, 58471254656987, Incorrect username or password.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -121,14 +126,23 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.DarazHomePageTest</span>
+              <span class="class-name">testcases.DarazLoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ScrollVisaCard">
-                  </a> <!-- ScrollVisaCard -->
-                  <span class="method-name">ScrollVisaCard</span>
+                  <a name="testLoginInvalidCredential(987654321, passwordmy, Please enter a valid phone number.)">
+                  </a> <!-- testLoginInvalidCredential(987654321, passwordmy, Please enter a valid phone number.) -->
+                  <span class="method-name">testLoginInvalidCredential</span>
+                  <span class="parameters">(987654321,passwordmy,Please enter a valid phone number.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginInvalidCredential(jahan@gmail.com, 58471254656987, Incorrect username or password.)">
+                  </a> <!-- testLoginInvalidCredential(jahan@gmail.com, 58471254656987, Incorrect username or password.) -->
+                  <span class="method-name">testLoginInvalidCredential</span>
+                  <span class="parameters">(jahan@gmail.com,58471254656987,Incorrect username or password.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +150,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1834640133\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1465776054\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,11 +159,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcases.DarazHomePageTest&quot;&gt;
+      &lt;class name=&quot;testcases.DarazLoginPageTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;ScrollVisaCard&quot;/&gt;
+          &lt;include name=&quot;testLoginInvalidCredential&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- testcases.DarazHomePageTest --&gt;
+      &lt;/class&gt; &lt;!-- testcases.DarazLoginPageTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -189,16 +203,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ScrollVisaCard')
-data.setCell(0, 2, 'testcases.DarazHomePageTest')
-data.setCell(0, 3, 67105);
+data.setCell(0, 1, 'testLoginInvalidCredential')
+data.setCell(0, 2, 'testcases.DarazLoginPageTest')
+data.setCell(0, 3, 18207);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLoginInvalidCredential')
+data.setCell(1, 2, 'testcases.DarazLoginPageTest')
+data.setCell(1, 3, 16981);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -217,9 +235,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.DarazHomePageTest</span>
+              <span class="ignored-class-name">testcases.DarazLoginPageTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">darazHome</span>
+                <span class="ignored-method-name">testLoginInvalidData</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -231,18 +249,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.DarazHomePageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.DarazLoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">ScrollVisaCard</span>
-                <span class="method-start">2362 ms</span>
+                <span class="method-name">testLoginInvalidCredential(987654321, passwordmy, Please enter a valid phone number.)</span>
+                <span class="method-start">2348 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">qhuitBrowser</span>
-                <span class="method-start">69494 ms</span>
+                <span class="method-start">19354 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setBrowser</span>
+                <span class="method-start">19544 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginInvalidCredential(jahan@gmail.com, 58471254656987, Incorrect username or password.)</span>
+                <span class="method-start">20696 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">qhuitBrowser</span>
+                <span class="method-start">38909 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

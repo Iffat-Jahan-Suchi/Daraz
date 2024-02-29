@@ -7,6 +7,7 @@ import pages.DarazHomePage;
 import pages.DarazLoginPage;
 import utilities.DataSet;
 import utilities.DriverSetUp;
+import utilities.UserDataProvider;
 
 public class DarazLoginPageTest extends DriverSetUp{
 	DarazLoginPage darazLogin=new DarazLoginPage();
@@ -15,6 +16,18 @@ public class DarazLoginPageTest extends DriverSetUp{
 	@Test(dataProvider="invalid credentials",dataProviderClass=DataSet.class)
 	public void testLoginInvalidData(String name,String password,String ErrorMessage) throws InterruptedException {
 		getDriver().get(darazHome.DarazDashbOardUrl);
+		darazHome.btnClick(darazHome.LoginButton);
+		darazLogin.writeText(darazLogin.emailOrPhoneNumber,name);
+		darazLogin.writeText(darazLogin.userPassword, password);
+		darazLogin.btnClick(darazLogin.loginBtn);
+		darazHome.getScreenShot("login page");
+		assertEquals(darazLogin.getElement(darazLogin.ErrorMsg).getText(),ErrorMessage);
+		Thread.sleep(2000);
+	}
+	
+	@Test(dataProvider="userData",dataProviderClass=UserDataProvider.class)
+	public void testLoginInvalidCredential(String name,String password,String ErrorMessage) throws InterruptedException {
+		getDriver().get(darazLogin.Daraz_login);
 		darazHome.btnClick(darazHome.LoginButton);
 		darazLogin.writeText(darazLogin.emailOrPhoneNumber,name);
 		darazLogin.writeText(darazLogin.userPassword, password);
